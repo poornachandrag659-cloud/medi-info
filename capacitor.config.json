@@ -1,0 +1,11 @@
+{
+  "appId": "in.mediinfo.app",
+  "appName": "Medi Info",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 1200, "backgroundColor": "#FFFFFF", "androidScaleType": "CENTER_INSIDE", "showSpinner": false },
+    "StatusBar": { "style": "DARK", "backgroundColor": "#FFFFFF" }
+  }
+}
