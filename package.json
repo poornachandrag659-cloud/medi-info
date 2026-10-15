@@ -1,0 +1,24 @@
+{
+  "name": "mediinfo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Medi Info: hospital & doctor appointment platform (API + web + Android via Capacitor)",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/server.js",
+    "dev": "SEED=1 node --disable-warning=ExperimentalWarning server/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test server/test/api.test.js",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:assets": "npx capacitor-assets generate --android"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/splash-screen": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0",
+    "@capacitor/assets": "^3.0.5"
+  }
+}
